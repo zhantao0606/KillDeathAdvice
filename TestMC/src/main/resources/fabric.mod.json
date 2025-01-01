@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "killdeathadvice",
+  "version": "${version}",
+  "name": "KillDeathAdvice",
+  "description": "Shows death notices and implements one-hit kill mechanics",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {
+    "website": "https://example.com",
+    "repo": "https://github.com/username/death-notice-mod",
+    "repo": "https://github.com/20262/TestMC"
+  },
+  "license": "MIT",
+  "icon": "assets/death-notice-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gec.killdeathadvice.mod.DeathNoticeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=${java_version}"
+  }
+}
